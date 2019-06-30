@@ -1,0 +1,113 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <p> 
+    <div class="col-lg-12 mb-4 mt-2 text-center">
+              <h1 class="text-center">Machine Learning Cloud Services</h1>
+              <h5 class="text-center">We assist your organization grow, by offloading your machine learnig model development, optimization and hosting in the clould.</h5>
+              <p>&nbsp;</p>
+              <p class="text-center"> <a class="nav-item nav-link" href="{{ url_for('account') }}">Join to enjoy free services</a> </p>
+      </div>
+    </p>
+
+      <section>
+      <div class="container">
+        <div class="row">
+          <p>  <div class="row">
+            <video controls loop="yes" width="100%" autoplay="Yes" height="auto" muted="yes" preload="yes" >
+              <source src="/static/MLCS_Video.mp4" type="video/mp4">
+                     Sorry, your browser doesn>'t support embedded videos.
+            </video>
+        <div class="row"></p>
+
+      <div class="col-lg-12 mb-4 mt-2 text-center">
+            <h2>ABOUT US</h2>
+            <p>We are an Artificial Intelligence conpany speacializing in Machine Learning. We can off load you the burden of Machine Learning model building for your business. Our ML experts optimize these models so that these are generalized and work best on the unforeseen data. We deploy these models as microservices in the cloud of your choice and enable scalling with Kubernetes.</p>
+            <p>&nbsp;</p>
+          <h2>OUR SERVICES</h2>
+          </div>
+        </div>
+        <div class="row">
+          </p>
+          </div>
+          </div>
+      <div class="container ">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="/static/Capture1.PNG" data-holder-rendered="true">
+            <h3>ML Model Development</h3>
+            <p>Model Development Service off loads you the burden of building ML models in-house. Our experts build the most appropriate model for your business.nt Service</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="/static/Capture2.PNG" data-holder-rendered="true">
+            <h3>ML Model Optimization</h3>
+            <p>Thouhg model building these days has become relatively easy, but model optimization is still a challenge. Our ML experts generalize you models so that these perform on new data as they performed on the testset.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="/static/Capture3.PNG" data-holder-rendered="true">
+            <h3>ML Model Hosting</h3>
+            <p>Model dployment in the cloud requires completely different skills sets as well as different technology stack, let us host your models in scalable cloud of your chioice worry free.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="/static/Capture4.PNG" data-holder-rendered="true">
+            <h3>Microservices Design</h3>
+            <p>You dont want to chocke your business with a monolythic application, our experts build microservices foyour business using docker containers. </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="/static/Capture5.PNG" data-holder-rendered="true">
+            <h3>Kubernetes Cluster Setup</h3>
+            <p>When the business peek cycles come, you dont want your business to suffer for lack of scalability. Our experts build right cluster for your business needs so that you dont pay upfront and scale well.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="/static/Capture6.PNG" data-holder-rendered="true">
+            <h3>ML Training</h3>
+            <p>Tired of on-line training time and money wasted, let us build your in-house capacity in machine learning at the cost of online learning.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 mt-4 mb-2 text-center">
+            <h2>TESTIMONIALS</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-6">
+            <blockquote class="blockquote">
+              <p class="mb-0">Comming soon ....</p>
+              <small class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></small> 
+            </blockquote>
+          </div>
+          <div class="col-sm-6 col-lg-6">
+            <blockquote class="blockquote">
+              <p class="mb-0">Comming soon ....</p>
+              <small class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></small> 
+            </blockquote>
+          </div>
+          <div class="col-sm-6 col-lg-6">
+            <blockquote class="blockquote">
+              <p class="mb-0">Comming soon ....</p>
+              <small class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></small> 
+            </blockquote>
+          </div>
+          <div class="col-sm-6 col-lg-6">
+            <blockquote class="blockquote">
+              <p class="mb-0">Comming soon ....</p>
+              <small class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></small> 
+            </blockquote>
+          </div>
+        </div>
+  </div>
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="text-center col-md-8 col-12 mx-auto">
+              <p class="lead">Sign up now for a free quote. You will hear from one of our ML experts within next 24 hours. We will assess your Machine Learning requirements and will provide you with a free quote for different options.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 col-auto mx-auto"> <a class="nav-item nav-link" href="{{ url_for('account') }}">Sign up now!</a> </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+{% endblock content %}
